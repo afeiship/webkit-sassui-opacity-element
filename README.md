@@ -1,12 +1,12 @@
-# webkit-sassui-opacity-text
-> Opacity black bg &amp; white text
+# webkit-sassui-opacity-element
+> Opacity black bg &amp; white element
 
 ## usage:
-+ https://afeiship.github.io/webkit-sassui-opacity-text/
++ https://afeiship.github.io/webkit-sassui-opacity-element/
 
 ```html
-<figure class="img webkit-sassui-opacity-text test-webkit-sassui-opacity-text">
-  <span class="tip">00:12</span>
+<figure class="img test-webkit-sassui-opacity-element">
+  <span class="webkit-sassui-opacity-element">00:12</span>
   <img src="http://placeholder.qiniudn.com/375x200" alt="">
 </figure>
 ```
