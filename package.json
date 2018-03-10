@@ -1,8 +1,8 @@
 {
-  "name": "webkit-sassui-opacity-text",
+  "name": "webkit-sassui-opacity-element",
   "version": "0.0.0",
   "description": "Opacity black bg &amp; white text",
-  "homepage": "https://github.com/afeiship/webkit-sassui-opacity-text",
+  "homepage": "https://github.com/afeiship/webkit-sassui-opacity-element",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -10,7 +10,7 @@
   "scripts": {
     "build":"gulp"
   },
-  "main":"dist/webkit-sassui-opacity-text.scss",
+  "main":"dist/webkit-sassui-opacity-element.scss",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
