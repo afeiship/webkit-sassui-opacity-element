@@ -1,0 +1,28 @@
+/*webkit-sassui-opacity-text Start*/
+.webkit-sassui-opacity-text {
+  position: relative;
+}
+
+.webkit-sassui-opacity-text > .tip {
+  color: #fff;
+  font-size: 10px;
+  padding: 0 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  z-index: 2;
+  height: 20px;
+  line-height: 20px;
+}
+
+/*webkit-sassui-opacity-text End*/
+.test-webkit-sassui-opacity-text {
+  border: 1px solid salmon;
+}
+
+.test-webkit-sassui-opacity-text img {
+  vertical-align: top;
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-opacity-text",
+  "description": "Opacity black bg &amp; white text",
+  "main": [
+    "dist/webkit-sassui-opacity-text.css",
+    "dist/webkit-sassui-opacity-text.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "opacity-text"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
