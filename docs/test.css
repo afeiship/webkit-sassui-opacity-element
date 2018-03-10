@@ -1,28 +1,29 @@
 /*webkit-sassui-opacity-text Start*/
-.webkit-sassui-opacity-text {
-  position: relative;
-}
-
-.webkit-sassui-opacity-text > .tip {
+.webkit-sassui-opacity-element {
   color: #fff;
   font-size: 10px;
   padding: 0 10px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  z-index: 2;
   height: 20px;
   line-height: 20px;
+  display: inline-block;
 }
 
-/*webkit-sassui-opacity-text End*/
-.test-webkit-sassui-opacity-text {
+/*webkit-sassui-opacity-element End*/
+.test-webkit-sassui-opacity-element {
   border: 1px solid salmon;
+  position: relative;
 }
 
-.test-webkit-sassui-opacity-text img {
+.test-webkit-sassui-opacity-element img {
   vertical-align: top;
   width: 100%;
+}
+
+.test-webkit-sassui-opacity-element .webkit-sassui-opacity-element {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 5px 5px 0;
 }
