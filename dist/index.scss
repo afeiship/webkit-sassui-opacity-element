@@ -1,0 +1,35 @@
+/*!
+ * name: @jswork/wsui-opacity-element
+ * description: Opacity black bg & white text.
+ * homepage: https://github.com/afeiship/wsui-opacity-element
+ * version: 1.0.0
+ * date: 2021-03-07 21:02:11
+ * license: MIT
+ */
+
+/*wsui-opacity-text Start*/
+$wsui-opacity-element-options:(
+  color: #fff,
+  background-color: #000,
+  height: 20px,
+  opacity: 0.4,
+  font-size: 10px
+)!default;
+
+.wsui-opacity-element {
+  $color: map-get($map: $wsui-opacity-element-options, $key: color);
+  $background-color: map-get($map: $wsui-opacity-element-options, $key: background-color);
+  $height: map-get($map: $wsui-opacity-element-options, $key: height);
+  $opacity: map-get($map: $wsui-opacity-element-options, $key: opacity);
+  $font-size: map-get($map: $wsui-opacity-element-options, $key: font-size);
+
+  color: $color;
+  font-size: $font-size;
+  padding: 0 10px;
+  border-radius: 20px;
+  background-color: rgba($background-color, $opacity);
+  height: $height;
+  line-height: $height;
+  display: inline-block;
+}
+/*wsui-opacity-element End*/

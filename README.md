@@ -1,26 +1,39 @@
-# webkit-sassui-opacity-element
-> Opacity black bg &amp; white element
+# wsui-opacity-element
+> Opacity black bg & white text.
 
-## options:
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
+
+## installation
+```shell
+npm i @jswork/wsui-opacity-element
+```
+
+## usage
 ```scss
-$webkit-sassui-opacity-element-options:(
-  color: #fff,
-  background-color: #000,
-  height: 20px,
-  opacity: 0.4,
-  font-size: 10px
-);
+// use sass
+@import '~@jswork/wsui-opacity-element/dist/index.scss';
+// use css
+@import '~@jswork/wsui-opacity-element/dist/style.css';
 ```
 
-## usage:
-+ https://afeiship.github.io/webkit-sassui-opacity-element/
+## preview
+- https://afeiship.github.io/wsui-opacity-element/
 
-```html
-<figure class="img test-webkit-sassui-opacity-element">
-  <span class="webkit-sassui-opacity-element">00:12</span>
-  <img src="http://placeholder.qiniudn.com/375x200" alt="">
-</figure>
-```
+## license
+Code released under [the MIT license](https://github.com/afeiship/wsui-opacity-element/blob/master/LICENSE.txt).
 
-## resources:
-+ https://github.com/afeiship/generator-webkit-sassui
+[version-image]: https://img.shields.io/npm/v/@jswork/wsui-opacity-element
+[version-url]: https://npmjs.org/package/@jswork/wsui-opacity-element
+
+[license-image]: https://img.shields.io/npm/l/@jswork/wsui-opacity-element
+[license-url]: https://github.com/afeiship/wsui-opacity-element/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/wsui-opacity-element
+[size-url]: https://github.com/afeiship/wsui-opacity-element/blob/master/dist/wsui-opacity-element.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@jswork/wsui-opacity-element
+[download-url]: https://www.npmjs.com/package/@jswork/wsui-opacity-element
+

@@ -1,5 +1,5 @@
-/*webkit-sassui-opacity-text Start*/
-.webkit-sassui-opacity-element {
+/*wsui-opacity-text Start*/
+.wsui-opacity-element {
   color: #fff;
   font-size: 10px;
   padding: 0 10px;
@@ -10,20 +10,27 @@
   display: inline-block;
 }
 
-/*webkit-sassui-opacity-element End*/
-.test-webkit-sassui-opacity-element {
+/*wsui-opacity-element End*/
+.test-wsui-opacity-element {
   border: 1px solid salmon;
+  padding: 2px;
   position: relative;
 }
 
-.test-webkit-sassui-opacity-element img {
+.test-wsui-opacity-element img {
   vertical-align: top;
   width: 100%;
 }
 
-.test-webkit-sassui-opacity-element .webkit-sassui-opacity-element {
+.test-wsui-opacity-element .wsui-opacity-element {
   position: absolute;
   right: 0;
   bottom: 0;
   margin: 0 5px 5px 0;
+}
+
+.container {
+  width: 30%;
+  min-width: 320px;
+  margin: 50px auto;
 }
